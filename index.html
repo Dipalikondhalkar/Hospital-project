@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>  Hospital template Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+<body>
+    <!-- part one -->
+   
+        <nav>
+            <div class=" d-flex justify-content-around  align-items-center nav1">
+                <div class="contact pt-3 contact1">
+                    <p >Contact: 1-8700-900 Emergency: 1-8700-911</p>
+                </div>
+                <div class="d-flex  d-none d-lg-block">
+                    <a href="#"><img src="images/illustraction/facebook.png"></i></a>
+                    <a href="#"><img src="images/illustraction/twitter.png"></i></a>
+                    <a href="#"><img src="images/illustraction/google.png"></i></a>
+                    <a href="#"><img src="images/illustraction/instgram.png" width="23px"></a>
+                    <a href="#"><img src="images/illustraction/linked in.png" width="26px"></i></a>
+                    <a href="#"><img src="images/illustraction/printerest.png"></i></a>
+                    <a href="#"><img src="images/illustraction/youtube.png "  width="21px"></a>
+                </div>
+            </div>
+            <div class="container hospitallogo d-md-flex justify-content-md-between align-items-center">
+                <div class="d-flex align-items-center">
+                   <a href="#">
+                    <h1 class="fw-bold text-black">Hospital</h1>
+                   </a>
+                   <a href="#"><img src="images/illustraction/plus.png" width="23px"></a>
+                </div>
+                <div class="text-end d-lg-none d-block">
+                    <a href="#"><img src="images/illustraction/menu.png" width="23px"></a>
+                </div>
+                <div class="d-none d-lg-block navlist1 ">  
+                    <ul class="navlist d-flex justify-content-around mt-3 ">
+                        <a href="#"><li>HOME</li></a>
+                        <a href="#"><li>DOCTORS</li></a>
+                        <a href="#"> <li>DEPARTMENT</li></a>
+                        <a href="#"><li>GALLARY</li></a>
+                        <a href="#"><li>SERVICE</li></a>
+                        <a href="#"> <li>EVENTS</li></a>
+                        <a href="#"><li>PAGES</li></a>
+                        <a href="#"> <li>CONTACT</li></a>
+                        </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- part2 -->
+        
+            <div class="d-block d-md-none">
+                <img src="images/illustraction/img1.jpg" width="100%">
+            </div>
+            
+            <div id="carouselExampleControls " class="carousel slide d-none d-md-block" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/illustraction/img1_1.jpg" class="d-block img-fluid w-100 image2">
+                  </div>
+                  <div class="carousel-item ">
+                    <img src="images/illustraction/img1.jpg" class="d-block img-fluid w-100 image2" >
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+           
+              <!-- Part3 -->
+              <section class="formbackground ">
+                    <div class="time">
+                        <div class=" d-md-flex justify-content-evenly">
+                            <div>
+                            <h3 class="schedule fw-bold pt-5">CHECK SCHEDULES</h3>
+                            <div>
+                                 <div class="mt-3">
+                                        <label class="text-white fw-bold">Department's Name</label>
+                                        <select class="form-select">
+                                            <option>Choose The Department</option>
+                                            <option>Cardiology</option>
+                                            <option>Dental</option>
+                                            <option>Neurologist</option>
+                                            <option>Pediatric</option>
+                                        </select>
+                                    </div>
+                                    <div class="mt-3">
+                                        <label class="text-white fw-bold" >Doctor's Name</label>
+                                        <select class="form-select">
+                                            <option>Choose The Doctor</option>
+                                            <option>Cardiology doctor</option>
+                                            <option>Dental Doctor</option>
+                                            <option>Neurologist Doctor</option>
+                                            <option>Pediatric Doctor</option>
+                                        </select>
+                                    </div>
+                                    <div class="mt-3">
+                                        <button class="btn btn-danger text-white fw-bold button1" >VIEW SCHEDULE</button>
+                                    </div>
+                             </div>
+                            </div>
+                            <div class=" book">
+                                <h3 class="schedule fw-bold mt-5 ">BOOK APPOINTMENT</h3>
+                                
+                                 <div class="row">
+                                 <div class=" col-md-6 mt-2">
+                                    <label for="name" class="form-label text-white fw-bold">Name</label>
+                                    <input type="text" id="name"  class="form-control">
+                                 </div>
+                                 <div class=" col-md-6 mt-2 ">
+                                    <label for="number" class="form-label text-white fw-bold">Phone Number</label>
+                                    <input type="text" id="number"  class="form-control">
+                                 </div>
+                                 <div class=" col-md-6 mt-2">
+                                    <label for="Email" class="form-label text-white fw-bold">Email</label>
+                                    <input type="email" id="Email"  class="form-control">
+                                 </div>
+                                 <div class="col-md-6 mt-2">
+                                    <label for="data" class="form-label text-white fw-bold">Choose Data</label>
+                                    <input type="text" id="data"  class="form-control">
+                                 </div>
+                                 <div class=" col-md-6 mt-2">
+                                    <label class="text-white fw-bold">Department</label>
+                                    <select class="form-select">
+                                        <option>Cardiology </option>
+                                        <option>Dental </option>
+                                        <option>Neurologist </option>
+                                        <option>Pediatric </option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mt-3">
+                                    <button class="btn btn-success btn-lg text-white fw-bold button1 mt-md-3">SUBMIT</button>
+                                    <!-- <button type="button" class="btn btn-success btn-lg-btn-block">SUBMIT</button> -->
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="p-5 text-white text-center">Please fill out all of the fields correctly. Your records will be saved in our database securely.</p>
+              </section>
+              <!-- part3 -->
+              <section class="container text-center mt-5">
+                    <h1 class="p-3 besthospital ">BEST HOSPITAL IN TOWN</h1>
+                    <h3 class="besthospital_1 ">When It Comes to Health Care</h3>
+                    <div class="row"> 
+                            <div class="col-md-4 mt-5 ">
+                                <img src="images/illustraction/Settings (1).png">
+                                <p class="options pt-3">Powerful Theme Options</p>
+                                <p class="options1 p-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+                            </div>
+                            <div class="col-md-4 mt-4">
+                                <img src="images/illustraction/desktop.png">
+                                <p class="options pt-3">Drag & Drop Page Builder</p>
+                               <p class="options1 p-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+                            </div>
+                            <div class="col-md-4 mt-4">
+                                <img src="images/illustraction/pencil.png">
+                                <p class="options pt-3">Easy to Customize</p>
+                                <p class="options1 p-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+                            </div>
+                           
+                            <div class="col-md-4 mt-4">
+                                    <img src="images/illustraction/document.png">
+                                    <p class="options pt-3">Theme Documentation</p>
+                                   <p class="options1 p-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+                            </div>
+                            <div class="col-md-4 mt-4">
+                                <img src="images/illustraction/calender.png">
+                                    <p class="options pt-3">Years of Experience</p>
+                                    <p class="options1 p-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+                            </div>
+                            <div class="col-md-4 mt-4">
+                                <img src="images/illustraction/smartphone-.png">
+                                    <p class="options pt-3">Years of Experience</p>
+                                    <p class="options1 p-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+                            </div>
+                    </div>
+              </section>
+              <!-- part four -->
+              <section class=" container">
+                            <h3 class="doctor text-center">OUR DOCTORS</h3>
+                            <p class="doctor_1 text-center p-3">Our doctors are specialized in their field and have more than 10 years of experiences.</p>
+                            
+                            <div class="row p-3 ">
+                                <div class="col-md-6 col-lg-3 mt-4">
+                                    <img src="images/illustraction/doctor1.jpg" class="img-fluid">
+                                    <div class="p-3 border border-1">
+                                        <h3 class="doctorname"><a href="#">Dr.Veranda parker</a></h3>
+                                        <p class="title">Pulmonary</p>
+                                        <p class="d_history">Veranda was born and raised in Indonesia. He graduated from the University of...</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3 mt-4">
+                                    <img src="images/illustraction/doctor2.jpg" class="img-fluid">
+                                    <div class="p-3 border border-1">
+                                        <h3 class="doctorname"><a href="#">Dr. Kathryn Wood</a></h3>
+                                        <p class="title">Pulmonary</p>
+                                        <p class="d_history">Kathryn was born and raised in Jakarta, Indonesia. He graduated from the University of...</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3 mt-4 ">
+                                    <img src="images/illustraction/doctor3.jpg" class="img-fluid">
+                                    <div class="p-3 border border-1">
+                                        <h3 class="doctorname"><a href="#">Dr. Hooman Azmi</a></h3>
+                                        <p class="title">Dental</p>
+                                        <p class="d_history">Hooman was born and raised in Jakarta, Indonesia. He graduated from the University of...</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3 mt-4 ">
+                                    <img src="images/illustraction/doctor4.jpg" class="img-fluid">
+                                    <div class="p-3 border border-1">
+                                        <h3 class="doctorname"><a href="#">Dr. Peter Parker</a></h3>
+                                        <p class="title">Neurologist</p>
+                                        <p class="d_history">Peter was born and raised in Jakarta, Indonesia. He graduated from the University of...</p>
+                                    </div>
+                                </div>
+                            </div>
+              </section>
+              <!-- part5 -->
+              <section class="container">
+                <h3 class="doctor text-center">TESTIMONIALS</h3>
+                
+                <p class="doctor_1 text-center p-3">The doctors and nurses and aides were super duper helpful. I really really appreciate all your kindness and good care you have provide me with. Thank you so much!</p>
+                <div class="text-center">
+                    <img src="images/illustraction/Eldery-Care.jpg" alt="Eldery-care" class="img">
+                    <h6 class="client fw-bold p-2">Martha Stewart</h6>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 p-3">
+                        <a href="#"><img src="images/illustraction/Nephrologist-Care.jpg" class="img-fluid  w-100"></a>
+                        <div class=" p-2 border border-2">
+                             <h3 class="doctorname"><a href="#">Nephrologist Care</a></h3>
+                            <h4 class="d_history">Tell me why, I love you like I do. Tell me who, could stop my...</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3  p-3">
+                         <a href="#"><img src="images/illustraction/Facility-Optic-.jpg" class="img-fluid w-100" ></a>
+                        <div class=" p-2 border border-2">
+                            <h3 class="doctorname"><a href="#">Eye Care</a></h3>
+                            <h4 class="d_history">Well we're movin' on up, to the east side. To a deluxe apartment in the...</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 p-3">
+                        <a href="#"><img src="images/illustraction/Check-your-Baby.jpg" class="img-fluid  w-100"  ></a>
+                        <div class=" p-2 border border-2">
+                            <h3 class="doctorname"><a href="#">Pediatrician Clinic</a></h3>
+                            <h4 class="d_history">My kinda people, my kinda place. There's something special about this place...</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 p-3">
+                        <a href="#"><img src="images/illustraction/prenatal-care-.jpg" class="img-fluid w-100" ></a>
+                        <div class=" p-2 border border-2">
+                            <h3 class="doctorname"><a href="#">Prenatal Care</a></h3>
+                            <h4 class="d_history">In an age when nature and magic rule the world, there is an extraordinary legend:...</h4>
+                        </div>
+                    </div>
+
+                </div>  
+              </section>
+              <!--part-6  -->
+              <section class="container">
+                <div>
+                    <h3 class="doctor text-center">LATEST NEWS</h3>
+                    <p class="doctor_1 text-center p-3">Latest up-to-date information from our public relation department.</p>
+
+                    <div class="row p-2">
+                        <div class="col-md-6 col-lg-3 mt-5">
+                            <a href="#"><img src="images/illustraction/Great-Team-.jpg" class="w-100"></a>
+                            <div class="border border-2 p-2">
+                            <h3 class="doctorname"><a href="#"> Together we can do so much</a></h3>
+                                <div class="d-flex align-items-center">
+                                    <img src="images/illustraction/calender (2).png" class="calender">
+                                    <p class="date">Apr 8,2024</p>
+                                </div>
+                                <h3 class="d_history ">Chosen from among all others by the Immortal Elders - Solomon, Hercules,  Achilles, Mercury..</h3>   
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 mt-5">
+                            <a href="#"><img src="images/illustraction/Our-Profesional-Doctor.jpg"class="w-100" ></a>
+                            <div class="border border-2 p-2">
+                            <h3 class="doctorname"><a href="#">The Three Musketeers Surgical Team</a></h3>
+                                <div class="d-flex align-items-center">
+                                    <img src="images/illustraction/calender (2).png" class="calender">
+                                    <p class="date">Apr 8,2024</p>
+                                </div>
+                                <h3 class="d_history ">One thousand years ago, superstition and the sword ruled. It was a time of darkness. It...</h3>   
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 mt-5">
+                            <a href="#"><img src="images/illustraction/Operation-Facilities.jpg" class="w-100"></a>
+                            <div class="border border-2 p-2">
+                            <h3 class="doctorname"><a href="#">Accredited surgical facility</a></h3>
+                                <div class="d-flex align-items-center">
+                                    <img src="images/illustraction/calender (2).png" class="calender">
+                                    <p class="date">Apr 8,2024</p>
+                                </div>
+                                <h3 class="d_history ">Since the dawn of time, there has been a process to developing web presentations - you...</h3>   
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 mt-5">
+                       
+                            <a href="#"><img src="images/illustraction/Check-your-Baby.jpg" class="w-100"></a>
+                            <div class="border border-2 p-2">
+                            <h3 class="doctorname"><a href="#">Health checks for babies</a></h3>
+                                <div class="d-flex align-items-center">
+                                    <img src="images/illustraction/calender (2).png" class="calender">
+                                    <p class="date">Apr 8,2024</p>
+                                </div>
+                                <h3 class="d_history ">Somewhere out in space live The Herculoids! Zok, Igoo Igoo,space live  the giant rock ape!...</h3>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </section>
+              <!-- part seven -->
+              <section class="container">
+                    <div class="philosophy mt-5">
+                        <div class="p-5 ">
+                            <h2 class="philosophy_title fw-bold ">OUR PHILOSOPHY</h2>
+                            <h4 class="text-white mt-3">This is the subtitle for the heading</h4>
+                            <p class="text-white">Patients have an important role to play at each stage of their care and the five safety tips will serve to encourage them to be more involved in their health care.</p>
+                            <p class="text-white">Patients can do a lot of small things to make their health-care experience as safe as possible.</p>
+                            <p class="text-white">Hospitals are places of recovery and healing but there are also safety risks for patients, such as infections, falls and medication errors that can happen despite our best efforts.</p>
+                            <button class="btn btn-danger text-white fw-bold button1" >VIEW SCHEDULE</button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- part eight -->
+                <section class="container">
+                    <div class="row">
+                            <div class="col-md-6 col-lg-3 mt-4 ">
+                                <div class="border border-1">
+                                <a href="#"><img src="images/illustraction/cardiologyimg.jpg" class=" w-100"></a>
+                                <div class="p-2">
+                                <h3 class="doctorname"><a href="#">Cardiology</a></h3>
+                                <h4 class="d_history ">Here's the story of a lovely lady, who was bringing up three very lovely... 
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3 mt-4 ">
+                                <div class="border border-1">
+                                    <a href="#"><img src="images/illustraction/Dentalimg.jpg" class=" w-100"></a>
+                                    <div class="p-2">
+                                    <h3 class="doctorname"><a href="#">Dental</a></h3>
+                                    <h4 class="d_history ">We never thought of findin' a place where we belong. Don't have to stand...
+                                    </div>
+                            </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3 mt-4 ">
+                                <div class="border border-1">
+                                    <a href="#"><img src="images/illustraction/Pulmonary.jpg" class=" w-100"></a>
+                                    <div class="p-2">
+                                    <h3 class="doctorname"><a href="#">Pulmonary</a></h3>
+                                    <h4 class="d_history ">Life is like a hurricane here in Duckburg. Race cars, lasers, aeroplanes - it's...
+                                    </div>
+                             </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3 mt-4 ">
+                                <div class="border border-1">
+                                    <a href="#"><img src="images/illustraction/Neurologistimg.jpg" class=" w-100"></a>
+                                    <div class="p-2">
+                                    <h3 class="doctorname"><a href="#">Neurologisti</a></h3>
+                                    <h4 class="d_history ">You unlock this door with the key of imagination. Beyond it is another dimension:...
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3 mt-4 ">
+                                <div class="border border-1">
+                                    <a href="#"><img src="images/illustraction/Pediatricimg.jpg" class=" w-100"></a>
+                                    <div class="p-2">
+                                    <h3 class="doctorname"><a href="#">Pediatric</a></h3>
+                                    <h4 class="d_history ">One thousand years ago, superstition and the sword ruled. It was a time of...
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3 mt-4 ">
+                                <div class="border border-1">
+                                    <a href="#"><img src="images/illustraction/Traumatology.jpg" class=" w-100"></a>
+                                    <div class="p-2">
+                                    <h3 class="doctorname"><a href="#">Traumatology</a></h3>
+                                    <h4 class="d_history ">Your tread must be light and sure, as though your path were upon rice...
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3 mt-4 ">
+                                <div class="border border-1">
+                                    <a href="#"><img src="images/illustraction/Urology.jpg" class=" w-100"></a>
+                                    <div class="p-2">
+                                    <h3 class="doctorname"><a href="#">Urology</a></h3>
+                                    <h4 class="d_history ">They're creepy and they're kooky, mysterious and spooky. They're all together ooky...
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3 mt-4 ">
+                                <div class="border border-1">
+                                    <a href="#"><img src="images/illustraction/Xray.jpg" class=" w-100"></a>
+                                    <div class="p-2">
+                                    <h3 class="doctorname"><a href="#">Xray</a></h3>
+                                    <h4 class="d_history ">I bet we been together for a million years, And I bet we'll be...
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </section>
+                <!-- section nine -->
+                <footer class="bgfooter">
+                    <div class="container">
+                    <div class="footer1 d-lg-flex" >
+                                <div  class="f_b">
+                                    <h2 class="f_title f_color">CATEGORIES</h2>
+                                    <div class="mt-4">
+                                        <a href="#"><img src="images/illustraction/blog.png" alt="bimg"></a>
+                                        <a href="#" class="f_itemcolor">Blogs</a>
+                                    </div>
+                                    <div>
+                                        <a href="#"><img src="images/illustraction/blog.png" alt="Cimg"></a>
+                                        <a href="#" class="f_itemcolor">Counseling</a>
+                                    </div>
+                                    <div>
+                                        <a href="#"><img src="images/illustraction/blog.png"></a>
+                                        <a href="#" class="f_itemcolor">Health</a>
+                                    </div>
+                                    <div>
+                                        <a href="#"><img src="images/illustraction/blog.png" alt="Kimg"></a>
+                                        <a href="#" class="f_itemcolor">Kids</a>
+                                    </div>
+                                </div>
+                                <div class="d-md-flex ff_b">
+                                <div>
+                                    <h2 class="f_title f_color mt-5 tags">TAGS</h2>
+                                    <div class="button3">
+                                        <button class="btn btn-dark btn-sm button2 mt-3">Eeach</button>    
+                                        <button class="btn btn-dark btn-sm button2 mt-3">Music</button>
+                                        <button class="btn btn-dark btn-sm button2 mt-3">Health</button>
+                                        <button class="btn btn-dark btn-sm button2 mt-3">Holiday</button>
+                                        <button class="btn btn-dark btn-sm button2 mt-3">Nature</button>
+                                        <button class="btn btn-dark btn-sm button2 mt-3">Rock</button>
+                                        <button class="btn btn-dark btn-sm button2 mt-3">Information</button>   
+                                        <button class="btn btn-dark btn-sm button2 mt-3">Kids</button>
+                                        <button class="btn btn-dark btn-sm button2 mt-3">Randomstuff</button>
+                                    </div>
+                                </div>
+                                    <div>
+                                        <h2 class="f_title f_color mt-5">REXENT COMMENT</h2>
+                                        <div class="mt-3">
+                                            <a href="#" class="f_itemcolor">Aziz Rahman on</a>
+                                            <div>
+                                                <a href="#" class="f_itemcolor">My Kindia peoples, my kindia place</a>
+                                            </div>   
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                </div>  
+                <div class="fend_color">
+                    <div class="d-flex justify-content-md-evenly">
+                        <p class="text-center p-2 f_itemcolor d-md-none d-block">@2024Hospital plus.Designed by ThemeWarrior</p>
+                        <div class="d-md-block d-none d-md-flex">
+                        <p class="f_font p-3 design_1" >@2024Hospital plus.</p>
+                        <a href="#" class=" p-3 Design design_1">Designed by ThemeWarrior</a>
+                        </div>
+                    </div>
+            </div>
+                </footer>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

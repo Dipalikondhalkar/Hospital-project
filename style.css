@@ -1,0 +1,269 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.nav1
+{
+    background-color: rgb(40,116,252);
+
+}
+.contact
+{
+    font-size: 12px;
+    color: white;
+}
+.hospitallogo
+{
+    width: 90%;
+
+}
+.navlist a{
+    list-style-type: none;
+    color: black;
+    font-size: 14px;
+}
+.formbackground
+{
+    background-color: rgb(40,116,252);
+    
+}
+.schedule
+{
+    font-size:20px;
+    color: #ffffff;
+    font-family: Montserrat;
+   
+}
+hr
+{
+    width: 30%;
+  color: red;
+    
+}
+.time
+{
+    width: 90%;
+    /* border: 2px solid black; */
+    margin: 0 auto;
+    
+}
+.button1
+{
+    font-size: 14px;
+}
+.besthospital
+{
+    font-size: 34px;
+    color: #0f2b51;
+    line-height: 40px;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+.besthospital_1
+{
+    font-size: 18px;
+    color: #999999;
+    line-height: 24px;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 400;
+   
+}
+.options
+{
+    font-size: 18px;
+    color: #333333;
+    font-family: Montserrat;
+    font-weight: 400;
+}
+.options1
+{
+    font-size: 16px;
+    color: #555555;
+    line-height: 170%;
+}
+.doctor
+{
+    font-size: 28px;
+    color: #0f2b51;
+    font-family: Montserrat;
+    font-weight: 700;  
+    margin-top: 100px;
+}
+.doctor_1
+{
+    font-size: 18px;
+    color: #666666;
+}
+.doctorname
+{
+    font-size: 18px;
+}
+.doctorname a{
+    color: #01579b;
+}
+.doctorname a:hover
+{
+    color:#cf2e2e;
+}
+.title
+{
+    font-family: Lato;
+    color: #aaa;
+    font-size: 14px;
+}
+.d_history
+{
+    font-size: 16px;
+    font-family: Lato;
+    color: #555555;
+}
+.img
+{
+    border-radius: 50%;
+}
+.client
+{
+    font-size: 14px;
+    color: #555555;
+    font-family: Lato;
+}
+.care
+{
+    font-size: 16px;
+    font-family: Lato;
+    color: #555555;
+}
+.calender
+{
+    width: 25px;
+}
+.date
+{
+    font-size: 12px;
+    color: #555555;
+   margin-top: 9px;
+}
+.philosophy
+{
+    background-color:  #1565c0;
+}
+.philosophy_title
+{
+    font-size: 34px;
+    color:white
+}
+.bgfooter
+{
+    background-color: #333333;
+    margin-top: 100px;
+}
+.button2
+{
+    border: 1px solid white;
+    background-color: #333333;
+    color: white;
+}
+.button2:hover
+{
+    border: 1px solid white;
+    background-color:white;
+    color: black;
+}
+.footer1
+{
+    padding: 20px;
+}
+.f_title
+{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 16px;
+}
+.f_color
+{
+    color: #ffffff;
+}
+.f_itemcolor
+{
+    color: #909090;
+    font-size: 15px;
+}
+.f_itemcolor:hover
+{
+    color:rgb(169,184,195)
+}
+.fend_color
+{
+    background-color: rgb(21, 21, 21);
+}
+.image2{
+    height: 700px;
+}
+
+@media(min-width:768px)
+{
+    .contact1
+    {
+        width: 90%;
+    }
+    .schedule1
+    {
+       width: 40%;
+       
+       
+    }
+    .schedule2
+    {
+        width: 60%;
+    }
+    .button3
+    {
+        width: 70%;
+    }
+    .f_font{
+        font-size: 18px;  
+    }
+    .design_1
+    {
+        color: #555555;
+        font-size: 15px;
+    }
+    .design_1:hover
+    {
+        color: #555555;
+    }
+    .book
+    {
+        margin-left: 60px;
+        width: 50%;
+    }
+}
+
+@media(min-width:992px)
+{
+    .contact1
+    {
+        width: 50%;
+    }
+    .navlist1
+{
+    width: 75%;
+}
+.ff_b
+{
+    width: 75%;
+    margin-left: 75px;
+}
+
+.f_b
+{
+    width: 25%;
+    margin-top: 45px;
+    margin-left: 20px;
+}
+}
